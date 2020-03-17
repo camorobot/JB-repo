@@ -1,6 +1,6 @@
-Name: test
-Package: nl.camorobot.test
-Description: Dit is een beschrijving denk ik?
+Name: VipecloneTest
+Package: nl.vipeclone.test
+Description: Dit is een test package van een andere repository
 Architecture: iphoneos-arm
 Section: Tweaks
 Version: 1.0.0

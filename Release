@@ -1,8 +1,8 @@
-Origin: Camorobot Test
-Label: Camorobot Test Label
+Origin: VipeClone
+Label: VipeClone
 Suite: stable
 Version: 1.0.0
-Codename: camotest
+Codename: VipIoS
 Architectures: iphoneos-arm
 Components: main
-Description: Cydia repo description
+Description: VipeClone's Software of the Future 
