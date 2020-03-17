@@ -1,5 +1,5 @@
 Name: VipecloneTest
-Package: nl.vipeclone.test
+Package: nl.vipeclone.VipecloneTest
 Description: Dit is een test package van een andere repository
 Architecture: iphoneos-arm
 Section: Tweaks
