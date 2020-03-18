@@ -3,7 +3,7 @@ Package: nl.camorobot.nodockerbackground
 Description: Removes dock background from your ios device
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.0.0
+Version: 0.0.1
 Author: Camorobot<spam@boompje5.nl>
 Maintainer: Camorobot<spam@boompje5.nl>
 Depiction: https://jb-repo.netlify.com/apt/nl.camorobot.nodockerbackground/
