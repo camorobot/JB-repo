@@ -1,18 +1,17 @@
-Name: TestPackage
-Package: nl.vipeclone.VipecloneTest
-Description: Dit is een test package van een andere repository
+Name: NoDockerBackground
+Package: nl.vipeclone.nodockerbackground
+Description: Removes dock background from your ios device
 Architecture: iphoneos-arm
 Section: Tweaks
 Version: 1.0.0
 Author: Camorobot<spam@boompje5.nl>
 Maintainer: Camorobot<spam@boompje5.nl>
-Depiction: https://jb-repo.netlify.com/apt/test/
-Filename: apt/test/test.deb
-Size: 28672
-MD5sum: fb12b7f44c2f633ab9244da3c4a9b8c2
-SHA1: 07bab2e11dddceafb8690f8338aa0579f9ad8ef8
-SHA256: 7072691255ce11754f210b5b717c3b74a32817f2d3c6a56b7de35b2f99f24338
-Icon: https://jb-repo.netlify.com/assets/icons/app-icon.png
+Depiction: https://jb-repo.netlify.com/apt/nodockerbackground/
+Filename: apt/nodockerbackground/nl.camorobot.nodockerbackground.deb
+Size: 4096
+MD5sum: 7397d9e6ab7d6eb77e0f0ff63b271115
+SHA1: 4e1915354e47bda1233af43087a27683e9e51b3b
+SHA256: 60613bfb3f63e34eeb1545dcc19c39def6877a7b5901eaa9f0e29968b7712414
 
 Name: VipeTest
 Package: nl.vipeclone.vipetest
