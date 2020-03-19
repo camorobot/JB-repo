@@ -251,7 +251,7 @@ li {
     background: linear-gradient(90deg, rgba(0,129,255,1) 0%, rgba(0,212,255,1) 100%)!important;
     margin: 0;
     height: 375px;
-    color: rgba(255, 255, 255,);
+    color: rgba(255, 255, 255);
 }
 
 .footer-line{
@@ -282,6 +282,7 @@ li {
 
 .footer-text-box a{
     line-height: 28px;
+    color: rgb(255,255,255,0.8);
 }
 
 .footer-rights{
