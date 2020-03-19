@@ -14,14 +14,33 @@ a:hover {
 }
 */
 
+
+/* Scroll 5 
+.scroll::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+}
+.scroll::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.scroll::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(rgba(0,129,255,1) 0%, rgba(0,212,255,1));
+    -webkit-box-shadow: rgba(0,0,0,.12) 0 3px 13px 1px;
+}
+  
+.scroll-firefox{
+    scrollbar-color: orange lightyellow;
+}
+*/
+
 body{
     background-color: #F5F7FA;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     margin: 0;
     padding: 0;
     color: white;
+    
 }
-
 a{
     text-decoration: none;
     color: white;
@@ -69,6 +88,7 @@ li {
 }
 
 .cydia-wrapper-text-title{
+    font-size: 18px;
     padding: 50px 50px 30px 50px;
 }
 
@@ -160,7 +180,7 @@ li {
 }
 
 .tweak-card{
-    margin: 0px 80px 50px;
+    margin: 0px 80px 80px;
     border-radius: 10px;
     width: 275px;
     height: 100px;
@@ -181,7 +201,7 @@ li {
 }
 
 .user{
-    margin: 80px 0px!important;
+    margin: 80px 0px 0px 0px !important;
 }
 
 .tc-grid{
@@ -224,3 +244,48 @@ li {
 #tweak-6{
     background-image: url('../icons/app-icon-6.png');
 }
+
+.footer{
+    border-radius: 5px 5px 0px 0px;
+    background: rgb(0,129,255);
+    background: linear-gradient(90deg, rgba(0,129,255,1) 0%, rgba(0,212,255,1) 100%)!important;
+    margin: 0;
+    height: 375px;
+    color: rgba(255, 255, 255,);
+}
+
+.footer-line{
+    border: 1px solid rgb(255,255,255,.2);
+    margin: 30px auto 0px;
+    width: 90% !important;
+}
+
+.footer-margin{
+    margin: 50px 0px 0px 75px;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.footer-title{
+    font-size: 28px;
+    margin: 0px 0px 25px 0px;
+}
+
+.footer-text-box{
+    font-size: 16px;
+    width: 140px;
+    color: rgb(255,255,255,0.8);
+}
+
+.footer-text-box a{
+    line-height: 28px;
+}
+
+.footer-rights{
+    margin: 30px 0px 0px 75px;
+    line-height: 20px;
+}
+
