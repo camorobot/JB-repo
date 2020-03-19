@@ -14,10 +14,10 @@
     margin: 35px 0px 15px 0px;
 }
 
-ul li{
+.tos-text ul li{
     padding: 0px 50px;
 }
 
-a{
+.tos-text a{
     color: rgba(0,129,255)
 }
