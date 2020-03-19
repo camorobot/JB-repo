@@ -32,7 +32,6 @@
         margin: 0;
         padding: 0;
         color: white;
-        background-color: red;
     }
     .header-nav{
         font-size: 16px;
@@ -62,7 +61,7 @@
     }
 
     .cydia-wrapper{
-        width: 600px;
+        width: 700px;
         height: 125px;
         border-radius: 10px;
         margin: 50px auto;
