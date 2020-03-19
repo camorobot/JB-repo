@@ -5,6 +5,33 @@ body{
     padding: 0;
 }
 
+.header-nav{
+    font-size: 16px;
+    background-color: #010026;
+}
+
+.header-ul-right{
+    float: right;
+    padding: 16px 20px;
+}
+
+.header-ul-left {
+    display: block;
+    text-align: center;
+    padding: 16px 10px;
+    margin: 0px 30px;
+    text-decoration: none;
+}
+
+.nav-stack{
+    margin: 0px 30px;
+}
+
+.header-ul-right{
+    float: right;
+    padding: 16px 10px;
+}
+
 .tos-wrapper{
     width: 75%;
     margin: 100px auto;
