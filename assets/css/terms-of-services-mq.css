@@ -144,19 +144,19 @@
 
     .header-ul-right{
         float: right;
-        padding: 16px 20px;
+        padding: 16px 17px;
     }
 
     .header-ul-left {
         display: block;
         text-align: center;
         padding: 16px 10px;
-        margin: 0px 30px;
+        margin: 0px 27px;
         text-decoration: none;
     }
     
     .nav-stack{
-        margin: 0px 30px;
+        margin: 0px 27px;
     }
     
     .header-ul-right{
