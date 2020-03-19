@@ -1,0 +1,46 @@
+
+.footer{
+    border-radius: 5px 5px 0px 0px;
+    background: rgb(0,129,255);
+    background: linear-gradient(90deg, rgba(0,129,255,1) 0%, rgba(0,212,255,1) 100%)!important;
+    margin: 0;
+    height: 375px;
+    color: rgba(255, 255, 255);
+}
+
+.footer-line{
+    border: 1px solid rgb(255,255,255,.2);
+    margin: 30px auto 0px;
+    width: 90% !important;
+}
+
+.footer-margin{
+    margin: 50px 0px 0px 75px;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.footer-title{
+    font-size: 28px;
+    margin: 0px 0px 25px 0px;
+}
+
+.footer-text-box{
+    font-size: 16px;
+    width: 140px;
+    color: rgb(255,255,255,0.8);
+}
+
+.footer-text-box a{
+    line-height: 28px;
+    color: rgb(255,255,255,0.8);
+}
+
+.footer-rights{
+    margin: 30px 0px 0px 75px;
+    line-height: 20px;
+}
+
