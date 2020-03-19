@@ -144,24 +144,24 @@
 
     .header-ul-right{
         float: right;
-        padding: 16px 17px;
+        padding: 16px 17px !important;
     }
 
     .header-ul-left {
         display: block;
         text-align: center;
-        padding: 16px 10px;
-        margin: 0px 27px;
+        padding: 16px 10px !important;
+        margin: 0px 27px !important;
         text-decoration: none;
     }
     
     .nav-stack{
-        margin: 0px 27px;
+        margin: 0px 27px !important;
     }
     
     .header-ul-right{
         float: right;
-        padding: 16px 10px;
+        padding: 16px 8px !important;
     }
 
     .footer{
