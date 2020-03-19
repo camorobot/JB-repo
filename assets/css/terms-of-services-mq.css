@@ -139,7 +139,7 @@
     }
     .header-nav{
         font-size: 16px;
-        background-color: red;
+        background-color: #010026;
     }
 
 
@@ -157,7 +157,7 @@
     
     .header-ul-right{
         float: right;
-        padding: 16px 11px !important;
+        padding: 16px 5px !important;
     }
 
     .footer{
