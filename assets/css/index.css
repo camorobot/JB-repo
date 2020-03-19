@@ -65,6 +65,12 @@ a{
     padding: 6px 10px;
     border: 2px white solid;
     border-radius: 5px;
+    transition: all .5s;
+}
+
+.cydia-button:hover{
+    background-color: white;
+    color: #010026;
 }
 
 .s-title{
@@ -97,6 +103,11 @@ a{
     margin: 0px 0px;
     background-size: cover;
     background-position: center;
+    transition: all .5s;
+}
+
+.background-card-fade:hover{
+    background: none !important;
 }
 
 

@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" href="../../css/header.css">
     <link rel="stylesheet" type="text/css" href="../../css/reset.css">
     <link rel="stylesheet" type="text/css" href="../../css/footer.css">
+    <link rel="stylesheet" type="text/css" href="../../css/header-footer-mq.css">
+    <link rel="stylesheet" type="text/css" href="../../css/login-mq.css">
     <title>Login - Camorobot's Repo</title>
 </head>
 <body>
@@ -35,20 +37,24 @@
                 </div>
                 <div class="form">
                     <form action="../../php/access.php" method="POST">
-                        <div class="form-text">
-                            <p>Username</p>
+                        <div class="form-username">
+                            <div class="form-text">
+                                <p>Username</p>
+                            </div>
+                            <div class="form-input">
+                                <input type="text" name="username"></input>
+                            </div>
                         </div>
-                        <div class="form-input">
-                            <input type="text" name="username"></input>
-                        </div>
-                        <div class="form-text">
-                            <p>Password</p>
-                        </div>
-                        <div class="form-input">
-                            <input type="password" name="password"></input>
+                        <div class="form-password">
+                            <div class="form-text">
+                                <p>Password</p>
+                            </div>
+                            <div class="form-input">
+                                <input type="password" name="password"></input>
+                            </div>
                         </div>
                         <div class="form-button">
-                            <button type="submit">Login</button>
+                            <button class="button" type="submit">Login</button>
                         </div>
                     </form>
                 </div>

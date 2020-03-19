@@ -11,3 +11,82 @@ a{
     color: white;
 }
 
+.login-wrapper{
+    margin: 75px auto;
+    background: rgb(0,129,255);
+    background: linear-gradient(90deg, rgba(0,129,255,1) 0%, rgba(0,212,255,1) 100%)!important;
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.l-title{
+    text-align: center;
+    color: white !important;
+    font-size: 28px;
+    padding: 50px 0px 0px 0px;   
+}
+
+
+.form{
+    margin: 80px 0px 0px 250px;
+}
+
+.form-username{
+    margin: 0px 0px 25px 0px;
+}
+
+.form-text{
+    margin: 5px auto;
+    color: rgb(255, 255, 255, .8);
+}
+
+input{
+    background-color: white;
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.5s;
+}
+
+input:focus{
+    border: 1px solid #010026;
+}
+
+button{
+    margin: 30px 0px 0px 150px;
+    background: none;
+    color: white;
+    padding: 10px 40px;
+    border: 1px solid rgb(255, 255, 255, .8);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+    text-align: center;
+    /*css button effect */
+}
+
+.button:hover{
+    background-color: white;
+    color: #010026;
+}
+  
+.line{
+    border: 1px solid rgb(255, 255, 255, .4);
+    width: 60%;
+    margin: 30px auto;
+}
+
+.box-register{
+    text-align: center;
+}
+
+.box-register a{
+    color: #01002663;
+    transition: all .5s;
+}
+
+.box-register a:hover{
+    color: #010026;
+}
