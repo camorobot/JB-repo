@@ -61,7 +61,7 @@
         margin: 50px auto;
         background: rgb(0,129,255);
         background: linear-gradient(90deg, rgba(0,129,255,1) 0%, rgba(0,212,255,1) 100%)!important;
-        width: 400px;
+        width: 350px;
         height: 500px;
         border-radius: 10px;
     }
