@@ -73,7 +73,7 @@
         display: block;
         text-align: center;
         padding: 16px 10px;
-        margin: 0px 30px;
+        margin: 0px 40px;
         text-decoration: none;
     }
     
@@ -87,7 +87,7 @@
     }
 
     .cydia-wrapper{
-        width: 325px;
+        width: 330px;
         height: 150px;
         border-radius: 10px;
         margin: 50px auto;
@@ -108,4 +108,10 @@
         border-radius: 5px;
     }
 
+    
+    .s-title{
+        color: #010026!important;
+        font-size: 28px;
+        margin: 60px 50px 30px 50px;
+    }
 }
