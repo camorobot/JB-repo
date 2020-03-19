@@ -68,6 +68,11 @@
         background-color: #010026;
     }
 
+    .header-ul-right{
+        float: right;
+        padding: 16px 10px;
+    }
+
     .header-ul-left {
         display: block;
         text-align: center;
