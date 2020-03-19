@@ -1,8 +1,8 @@
-Origin: VipeClone
-Label: VipeClone
+Origin: Camorobot
+Label: Camorobot
 Suite: stable
 Version: 1.0.0
-Codename: VipIoS
+Codename: CAMIOS
 Architectures: iphoneos-arm
 Components: main
-Description: VipeClone's Software of the Future 
+Description: Camorobot's Software of the Future 
