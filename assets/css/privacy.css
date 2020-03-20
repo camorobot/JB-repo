@@ -1,0 +1,25 @@
+.privacy-wrapper{
+    width: 75%;
+    margin: 100px auto;
+    color: #010026;
+}
+
+.privacy-title{
+    font-size: 28px;
+    margin: 50px 0px;
+}
+
+.privacy-subtitle{
+    font-size: 26px;
+    margin: 35px 0px 15px 0px;
+}
+
+.privacy-text ul li{
+    padding: 0px 50px;
+    width: 80%;
+}
+
+.privacy-text a{
+    color: rgba(0,129,255)
+}
+
