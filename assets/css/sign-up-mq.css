@@ -1,0 +1,154 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    
+    .login-wrapper{
+        margin: 50px auto;
+        background: rgb(0,129,255);
+        background: linear-gradient(90deg, rgba(0,129,255,1) 0%, rgba(0,212,255,1) 100%)!important;
+        width: 350px;
+        height: 650px;
+        border-radius: 10px;
+    }
+
+    .l-title{
+        text-align: center;
+        color: white !important;
+        font-size: 28px;
+        padding: 50px 0px 0px 0px;   
+    }
+
+    
+    .form{
+        font-size: 14px;
+        margin: 60px 0px 0px 40px;
+    }
+
+    .form-username{
+        margin: 0px 0px 25px 0px;
+    }
+
+    .form-text{
+        margin: 5px auto;
+        color: rgb(255, 255, 255, .8);
+    }
+
+    .form-grid{
+        margin: -25px 0px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .password-input{
+        width: 270px !important;
+    }
+
+    input{
+        background-color: white;
+        width: 270px;
+        height: 35px;
+        border-radius: 5px;
+        border: none;
+        transition: all 0.5s;
+    }
+
+    input:focus{
+        border: 1px solid #010026;
+    }
+
+    button{
+        margin: 30px 0px 0px 75px;
+        background: none;
+        color: white;
+        padding: 10px 40px;
+        border: 1px solid rgb(255, 255, 255, .8);
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all 0.5s;
+        text-align: center;
+        /*css button effect */
+    }
+
+    .button:hover{
+        background-color: white;
+        color: #010026;
+    }
+    
+    .line{
+        border: 1px solid rgb(255, 255, 255, .4);
+        width: 60%;
+        margin: 30px auto;
+    }
+
+    .box-register{
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .box-register a{
+        color: #01002663;
+        transition: all .5s;
+        font-size: 14px;
+    }
+
+    .box-register a:hover{
+        color: #010026;
+    }
+
+
+}

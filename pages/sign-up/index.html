@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/assets/css/login.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/sign-up.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/header.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/footer.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/header-footer-mq.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/login-mq.css">
-    <title>Login - Camorobot's Repo</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/sign-up-mq.css">
+    <title>Sign up - Camorobot's Repo</title>
 </head>
 <body>
     
@@ -20,8 +20,8 @@
             <ul class="header-ul">
                 <li><a href="https://camorobot.netlify.com" class="header-ul-left">Camorobot</a></li>
                 <div class="nav-stack">
-                    <li class="header-ul-right"><a href="/assets/pages/login">Login</a></li>
-                    <li class="header-ul-right"><a href="/assets/pages/sing-up">Sign up</a></li>
+                    <li class="header-ul-right"><a href="/pages/login">Login</a></li>
+                    <li class="header-ul-right"><a href="/pages/sign-up">Sign up</a></li>
                 </div>
             </ul>
         </nav>
@@ -33,10 +33,18 @@
         <div class="login-wrapper">
             <div class="wrapper-box">
                 <div class="l-title">
-                    <h1>Account</h1>
+                    <h1>Sign up</h1>
                 </div>
                 <div class="form">
-                    <form action="../../php/access.php" method="POST">
+                    <form action="../../php/register.php" method="POST">
+                        <div class="form-email">
+                            <div class="form-text">
+                                <p>E-mail</p>
+                            </div>
+                            <div class="form-input">
+                                <input type="email" name="email"></input>
+                            </div>
+                        </div>
                         <div class="form-username">
                             <div class="form-text">
                                 <p>Username</p>
@@ -45,22 +53,32 @@
                                 <input type="text" name="username"></input>
                             </div>
                         </div>
-                        <div class="form-password">
-                            <div class="form-text">
-                                <p>Password</p>
+                        <div class="form-grid">
+                            <div class="form-password">
+                                <div class="form-text">
+                                    <p>Password</p>
+                                </div>
+                                <div class="form-input">
+                                    <input class="password-input" type="password" name="password"></input>
+                                </div>
                             </div>
-                            <div class="form-input">
-                                <input type="password" name="password"></input>
+                            <div class="form-password">
+                                <div class="form-text">
+                                    <p>Confim Password</p>
+                                </div>
+                                <div class="form-input">
+                                    <input class="password-input" type="password" name="confim-password"></input>
+                                </div>
                             </div>
                         </div>
                         <div class="form-button">
-                            <button class="button" type="submit">Login</button>
+                            <button class="button" type="submit">Sign up</button>
                         </div>
                     </form>
                 </div>
                 <div class="line"></div>
                 <div class="box-register">
-                    <p>Don't have a account? <a href="../register">Sign up</a> free</p>
+                    <p>Already have a account? <a href="/pages/login">Login</a> here</p>
                 </div>
             </div>
         </div>
@@ -84,7 +102,7 @@
                         <h2>Explore</h2>
                     </div>
                     <div class="footer-text-box">
-                        <a href="/assets/pages/login" class="footer-text">Account</a>
+                        <a href="/pages/login" class="footer-text">Account</a>
                         <br><a href="https://camorobot.netlify.com" class="footer-text">Repository</a>
                     </div>
                 </div>
@@ -93,8 +111,8 @@
                         <h2>Sitemap</h2>
                     </div>
                     <div class="footer-text-box">
-                        <a href="/assets/pages/login" class="footer-text">Login</a>
-                        <br><a href="/assets/pages/register" class="footer-text">Register</a>
+                        <a href="/pages/login" class="footer-text">Login</a>
+                        <br><a href="/pages/register" class="footer-text">Register</a>
                         <br><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://camorobot.netlify.com" class="footer-text">Add to cydia</a>
                         <br><a href="#featured-box" class="footer-text">Tweaks</a>
                     </div>
@@ -104,8 +122,8 @@
                         <h2>Policies</h2>
                     </div>
                     <div class="footer-text-box">
-                        <a href="/assets/pages/policies/privacy" class="footer-text">Privacy</a>
-                        <br><a href="/assets/pages/policies/terms-of-services" class="footer-text">Terms of Service</a>
+                        <a href="/pages/policies/privacy" class="footer-text">Privacy</a>
+                        <br><a href="/pages/policies/terms-of-services" class="footer-text">Terms of Service</a>
                     </div>
                 </div>
             </div>

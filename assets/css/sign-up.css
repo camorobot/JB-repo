@@ -16,7 +16,7 @@ a{
     background: rgb(0,129,255);
     background: linear-gradient(90deg, rgba(0,129,255,1) 0%, rgba(0,212,255,1) 100%)!important;
     width: 900px;
-    height: 500px;
+    height: 600px;
     border-radius: 10px;
 }
 
@@ -32,13 +32,19 @@ a{
     margin: 80px 0px 0px 225px;
 }
 
-.form-username{
-    margin: 0px 0px 25px 0px;
-}
 
 .form-text{
     margin: 5px auto;
     color: rgb(255, 255, 255, .8);
+}
+
+.password-input{
+    width: 200px !important;
+}
+
+.form-grid{
+    display: grid;
+    grid-template-columns: 250px 250px;
 }
 
 input{
@@ -48,6 +54,7 @@ input{
     border-radius: 5px;
     border: none;
     transition: all 0.5s;
+    margin: 0px 0px 25px 0px;
 }
 
 input:focus{
@@ -55,7 +62,7 @@ input:focus{
 }
 
 button{
-    margin: 30px 0px 0px 170px;
+    margin: 30px 0px 0px 175px;
     background: none;
     color: white;
     padding: 10px 40px;
