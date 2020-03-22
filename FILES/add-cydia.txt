@@ -1,1 +1,1 @@
-cydia://url/https://cydia.saurik.com/api/share#?source=https://getzbra.com/repo/
+cydia://url/https://cydia.saurik.com/api/share#?source=https:/camorobot.netlify.com

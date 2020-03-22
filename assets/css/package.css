@@ -1,0 +1,38 @@
+.package-text a{
+    color: rgba(0,129,255, .7) !important;
+}
+
+.package-text a:hover{
+    color: rgba(0,129,255) !important;
+}
+
+.package-wrapper{
+    color: #010026;
+    background-color: white;
+    border: none;
+    width: 375px;
+    border-radius: 10px;
+    margin: 10px 0px 40px 85px;
+    padding: 10px 20px;
+    box-shadow: #01002618 3px 3px;
+}
+
+.package-title{
+    padding: 0px 0px 10px 0px;
+}
+
+.package-img img{
+    width: 175px;
+    height: 380px;
+    border-radius: 10px;
+}
+
+.package-grid{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    line-height: 30px;
+}
+
+#img-before{
+    margin: 0px 10px 0px 0px;
+}

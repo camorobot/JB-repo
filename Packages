@@ -1,13 +1,13 @@
 Name: NoDockerBackground
 Package: nl.camorobot.nodockerbackground
-Description: Removes dock background from your ios device
+Description: Removes dock background from your ios device.
 Architecture: iphoneos-arm
 Section: Tweaks
 Version: 2.0
 Author: Camorobot<spam@boompje5.nl>
 Maintainer: Camorobot<spam@boompje5.nl>
-Depiction: https://jb-repo.netlify.com/apt/nl.camorobot.nodockerbackground/
-Filename: apt/nl.camorobot.nodockerbackground/nl.camorobot.nodockerbackground.deb
+Depiction: https://camorobot.netlify.com/package/nl.camorobot.nodockerbackground/
+Filename: package/nl.camorobot.nodockerbackground/nl.camorobot.nodockerbackground.deb
 Size: 4096
 MD5sum: d6181097ce3f482a79e9648529353bd7
 SHA1: 1dbb0bf06da51de8cd5149aa5f6351429af65e29
@@ -21,8 +21,8 @@ Section: Tweaks
 Version: 0.0.1
 Author: Camorobot<spam@boompje5.nl>
 Maintainer: Camorobot<spam@boompje5.nl>
-Depiction: https://jb-repo.netlify.com/apt/vipetest/
-Filename: apt/vipetest/nl.camorobot.vipetest.deb
+Depiction: https://camorobot.netlify.com/package/vipetest/
+Filename: package/nl.camorobot.vipetest/nl.camorobot.vipetest.deb
 Size: 4096
 MD5sum: 11794d467eecea7f5b4464f4d93b8feb
 SHA1: a25e954353323e6f7c580a5ff6a3c580f2df6b37

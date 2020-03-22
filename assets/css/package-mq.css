@@ -1,0 +1,99 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .package-text a{
+        color: rgba(0,129,255, .7) !important;
+    }
+    
+    .package-text a:hover{
+        color: rgba(0,129,255) !important;
+    }
+    
+    .package-wrapper{
+        color: #010026;
+        background-color: white;
+        border: none;
+        width: 375px;
+        border-radius: 10px;
+        margin: 10px auto 40px;
+        padding: 10px 20px;
+        box-shadow: #01002618 3px 3px;
+    }
+    
+    .package-title{
+        padding: 0px 0px 10px 0px;
+    }
+    
+    .package-img img{
+        width: 175px;
+        height: 380px;
+        border-radius: 10px;
+    }
+    
+    .package-grid{
+        display: grid;
+        grid-template-columns: 200px 200px;
+        line-height: 30px;
+    }
+    
+    #img-before{
+        margin: 0px 10px 0px 0px;
+    }
+    
+    
+}
