@@ -38,6 +38,22 @@
                     <h1>Sign up</h1>
                 </div>
                 <div class="form">
+                    <?php
+                        if(isset($_GET['error'])){
+                            if($_GET['error'] == "emptyfields"){
+                                echo '<strong><p class="php-error">Pleas full in all fields!</p></strong>';
+                            }
+                            else if($_GET['error'] == "invaliduid"){
+                                echo '<strong><p class="php-error php-user-password">Invailid username. Try again!</p></strong>';
+                            }
+                            else if($_GET['error'] == "invalidmail"){
+                                echo '<strong><p class="php-error php-user-password">Invailid email. Try again!</p></strong>';
+                            }
+                            else if($_GET['error'] == "passwordcheck"){
+                                echo "<strong><p class='php-error php-user-password' id='php-password-error'>Passwords don't match. Try again!</p></strong>";
+                            }
+                        }
+                    ?>
                     <form action="/assets/php/signup.php" method="POST">
                         <div class="form-email">
                             <div class="form-text">
