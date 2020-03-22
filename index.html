@@ -98,7 +98,7 @@
         <div class="tweak-wrapper">
             <div class="tweak-card" id="tweak-1">
                 <div class="tweak-fade">
-                    <a class="tc-grid" href="./package/nl.camorobot.nodockerbackground/aaaaaaa">
+                    <a class="tc-grid" href="./package/nl.camorobot.nodockerbackground/">
                         <div class="tweak-icon">
                             <img src="assets/icons/app-icon.png" alt="ICON">
                         </div>
