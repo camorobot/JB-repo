@@ -80,6 +80,7 @@
     }
     
     .package-img img{
+        overflow: auto;
         width: 175px;
         height: 380px;
         border-radius: 10px;
@@ -93,6 +94,12 @@
     
     #img-before{
         margin: 0px 10px 0px 0px;
+    }
+
+    #package-gid-image{
+        overflow: auto;
+        grid-template-columns: 200px 200px;
+
     }
     
     
