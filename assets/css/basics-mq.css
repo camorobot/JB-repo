@@ -62,8 +62,11 @@
         margin: 0;
         padding: 0;
         color: white;
-        
     }
+    p{
+        font-size: 14px;
+    }
+    
     a{
         text-decoration: none;
         color: white;
