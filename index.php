@@ -231,7 +231,7 @@
                     <h2>Camorobot</h2>
                 </div>
                 <div class="footer-text-box">
-                    <p class="footer-text" id="footer-quote">Together we can achieve whatever we want</p>
+                    <p class="footer-text" id="footer-quote">Together we can achieve whatever <br>we want</p>
                 </div>
             </div>
             <div class="footer-margin footer-collum-2">

@@ -45,9 +45,13 @@
             <div class="package-title">
                 <h2>Images</h2>
             </div>
-            <div class="package-img" >
-                <img id="img-before" src="/assets/img/package/nl.camorobot.nodockerbackground/before.png" alt="before package">
-                <img src="/assets/img/package/nl.camorobot.nodockerbackground/after.png" alt="before package">
+            <div class="package-grid" id="package-gid-image">
+                <div class="package-img">
+                    <img id="img-before" src="/assets/img/package/nl.camorobot.nodockerbackground/before.png" alt="before package">
+                </div>
+                <div class="package-img">
+                   <img src="/assets/img/package/nl.camorobot.nodockerbackground/after.png" alt="after package">
+                </div>
             </div>
         </div>
         <div class="package-wrapper" id="package-information">
@@ -76,7 +80,7 @@
             <div class="package-grid">
                 <div class="package-text">
                     <p>Name</p>
-                    <p>Conact</p>
+                    <p>Contact</p>
                     <p>Social Media</p>
                 </div>
                 <div class="package-text">
@@ -97,7 +101,7 @@
                     <h2>Camorobot</h2>
                 </div>
                 <div class="footer-text-box">
-                    <p class="footer-text" id="footer-quote">Together we can achieve whatever we want</p>
+                    <p class="footer-text" id="footer-quote">Together we can achieve whatever <br>we want</p>
                 </div>
             </div>
             <div class="footer-margin footer-collum-2">
