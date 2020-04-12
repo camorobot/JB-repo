@@ -64,12 +64,12 @@
             <div class="featured-wrapper">
                 <div class="featured-card" id="background-card-1">
                     <div class="featured-card background-card-fade" id="background-card-1-fade">
-                        <a href="./package/nl.camorobot.nodockerbackground/">
+                        <a href="./package/nl.camorobot.darkout/">
                             <div class="card-icon">
                                 <img src="assets/icons/app-icon.png" alt="ICON">
                             </div>
                             <div class="card-name">
-                                <p class="card-p">NoDocker Background</p>
+                                <p class="card-p">Darkout</p>
                             </div>
                         </a>
                     </div>
