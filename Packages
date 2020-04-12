@@ -28,3 +28,19 @@ MD5sum: 11794d467eecea7f5b4464f4d93b8feb
 SHA1: a25e954353323e6f7c580a5ff6a3c580f2df6b37
 SHA256: 808058d31f1911388f9d4132d7602d4e3ce16ec69e4b1bfa3288f7fb734f1a20
 Icon: https://jb-repo.netlify.com/assets/icons/app-icon.png
+
+Name: DarkOut
+Package: nl.camorobot.nodockerbackground
+Description: Nice Looking Dark Theme. Just Over 100 Icon's. Created By Camorobot
+Architecture: iphoneos-arm
+Section: Themes
+Version: 0.0.1
+Author: Camorobot<spam@boompje5.nl>
+Maintainer: Camorobot<spam@boompje5.nl>
+Depiction: https://camorobot.netlify.com/package/nl.camorobot.darkout/
+Filename: package/nl.camorobot.darkout/nl.camorobot.darkout.deb
+Size: 24207360
+MD5sum: 062643be9ecc8540a1c3e0eedb49ba72
+SHA1: 84349b8e389ce35181fce762e7e277f8c5e23f17
+SHA256: 1612ac7945bb7b3ee7c9dc41468ad400229427c037f42c189eac87995d1a1c07
+Icon: https://camorobot.netlify.com/assets/icons/app-icon.png

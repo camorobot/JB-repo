@@ -1,0 +1,24 @@
+.logout-background{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    width: 900px;
+    height: 400px;
+    margin: 75px auto;
+    box-shadow: #01002618 3px 3px;
+}
+
+#logout-title{
+    padding: 75px 0px 25px 0px;
+    text-align: center;
+}
+
+#logout-line{
+    margin-top: -10px;
+    border: 1px solid #01002618 !important;
+}
+
+#logout-text{
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+}
