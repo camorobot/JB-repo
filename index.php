@@ -18,6 +18,9 @@
     <title>Camorobot's Repo</title>
     <script src="/assets/js/scroll.js"></script>
 </head>
+
+<?php require 'assets/inc/requirement.inc.php' ?>
+
 <body class="scroll scroll-firefox">
 
 <!--HEADER-->
@@ -280,8 +283,9 @@
         
         <div class="footer-line"></div>
         <div class="footer-text-box footer-rights">
-            <p>Copyright 2019 - 2020</p>
+            <p>Copyright 2019 - <?php echo date("Y"); ?></p>
         </div>
     </section>
+    <script src="/assets/js/cookie.js"></script>
 </body>
 </html>

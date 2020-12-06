@@ -1,58 +1,12 @@
-<?php
-    session_start();
-    require '../assets/php/session.php';
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/assets/css/basics.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/account.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/header.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/footer.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/header-footer-mq.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/account-mq.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/basics-mq.css">
-    <title>TEST</title>
+    <title>Footer</title>
 </head>
-
 <body>
-<!--HEADER-->
-
-    <section class="header">
-        <nav class="header-nav">
-            <ul class="header-ul">
-                <li><a href="https://camorobot.netlify.com" class="header-ul-left">Camorobot</a></li>
-                <div class="nav-stack">
-                    <?php
-                        if(isset($_SESSION['userid'])){
-                            echo '<li class="header-ul-right"><a href="/pages/logout">logout</a></li>';
-                            echo '<li class="header-ul-right"><a href="/_/">account</a></li>';
-                        }
-                        else{
-                            echo '<li class="header-ul-right"><a href="/pages/login">Login</a></li>';
-                            echo '<li class="header-ul-right"><a href="/pages/sign-up">Sign up</a></li>';
-                        }
-                    ?>
-                    
-                </div>
-            </ul>
-        </nav>
-    </section>
-
-    
-    <h1>Welkom <?php echo $_SESSION['userid']; ?></h1>
-    <a href="/pages/logout">logout</a>
-    <?php
-        #$mailuid = $_POST['mailuid'];
-        #echo $mailuid;
-    ?>
-
-    <!--FOOTER MENU-->
-
     <section class="footer">
         <div class="footer-grid">
             <div class="footer-margin footer-collum-1">
@@ -96,10 +50,8 @@
         
         <div class="footer-line"></div>
         <div class="footer-text-box footer-rights">
-            <p>Copyright 2019 - 2020</p>
+            <p>Copyright 2019 - <?php echo date("Y"); ?></p>
         </div>
     </section>
-    <script src="/assets/js/cookie.js"></script>
-
 </body>
 </html>

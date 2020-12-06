@@ -57,9 +57,10 @@
 
                         mysqli_stmt_bind_param($stmt, "sss", $username, $email, $hashedPwd);
                         mysqli_stmt_execute($stmt);
+                        mkdir("../accounts/".$username);
 
-                        header('Location: /_/?signup=success');
-                        exit();
+                        header('Location: /pages/login');
+                        exit(); 
                     }
                 }
             }

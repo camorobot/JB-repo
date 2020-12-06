@@ -11,6 +11,11 @@ a{
     color: white;
 }
 
+h1{
+    font-size: 28px;
+    color: #010026;
+}
+
 .section-title{
     color: #010026!important;
     font-size: 28px;

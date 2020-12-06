@@ -19,6 +19,9 @@
     <script src="/assets/js/logout-timer.js"></script>
     <title>Logout - Camorobot's repo</title>
 </head>
+
+<?php require '../../assets/inc/requirement.inc.php' ?>
+
 <body>
 <!--HEADER-->
 
@@ -106,5 +109,6 @@
             <p>Copyright 2019 - 2020</p>
         </div>
     </section>
+    <script src="/assets/js/cookie.js"></script>
 </body>
 </html>

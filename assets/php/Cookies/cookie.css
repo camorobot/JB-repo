@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  margin: 24px 0;
+  line-height: 2;
+}
+
+.wrapper {
+  padding: 32px;
+}
+
+.cookie-bar {
+  position: fixed;
+  left: 8em;
+  right: 8em;
+  bottom: 20px;
+  /*background: rgb(0,129,255);
+  background: linear-gradient(90deg, rgba(0,129,255,1) 0%, rgba(0,212,255,1) 100%)!important; */
+  background: #010026;
+  color: #f5f6fa;
+  padding: 0 32px;
+  box-shadow: 0 -2px 160px rgba(47, 54, 64, 0.39);
+  border-radius: 10px;
+}
+
+
+
+.cookie-bar a {
+  color: #f5f6fa;
+}
+
+.cookie-btn {
+  float: right;
+  text-decoration: none;
+  border: 1px solid white;
+  cursor: pointer;
+  background: none;
+  border-radius: 8px;
+  margin: 0px 10px;
+  padding: 6px 18px;
+  text-decoration:inherit;
+  color: white;
+  right: 8em;
+}
+
+.cookie-btn:hover{
+  color: black;
+  background: white;
+  transition: all .5s;
+}

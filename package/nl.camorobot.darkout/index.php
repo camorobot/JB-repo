@@ -149,6 +149,6 @@
             <p>Copyright 2019 - 2020</p>
         </div>
     </section>
-
+    <script src="/assets/js/cookie.js"></script>
 </body>
 </html>
